@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Gallery</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- MAIN VIDEO -->
+      <div class="main-video-container">
+        <iframe
+          src="https://www.youtube.com/embed/7Lrxk2g5TpE"
+          allow="autoplay"
+          frameborder="0"
+          allowfullscreen
+          loop
+          controls
+          class="main-video"
+        ></iframe>
+        <h3 class="main-vid-title">Are Velux Skylights Hail Proof?</h3>
+      </div>
+
+      <!-- VIDEO LIST -->
+      <div class="video-list-container">
+        <div class="list active">
+          <!--
+            ADD YOUTUBE THUMBNAIL TO IMAGE SOURCE 
+            http://img.youtube.com/vi/<insert-youtube-video-id-here>/0.jpg 
+          -->
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/7Lrxk2g5TpE/0.jpg"
+              alt="Are Velux Skylights Hail Proof?"
+            />
+          </div>
+          <!--
+            ADD YOUTUBE VIDEO TO IFRAME SOURCE 
+            https://www.youtube.com/embed/<insert-youtube-video-id-here>?autoplay=1 
+          -->
+          <iframe
+            src="https://www.youtube.com/embed/7Lrxk2g5TpE?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            autoplay="1"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Are Velux Skylights Hail Proof?</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/1X3Zc_BRO1c/0.jpg"
+              alt="Parisi Domiziani Basins"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/1X3Zc_BRO1c?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Parisi Domiziani Basins</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/RiDTbAUOdb0/0.jpg"
+              alt="Victoria + Albert Amalfi Baths"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/RiDTbAUOdb0?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Victoria + Albert Amalfi Baths</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/Ra04SBqI8Xs/0.jpg"
+              alt="Victoria + Albert QUARRYCAST"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Ra04SBqI8Xs?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Victoria + Albert QUARRYCAST</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/e_BDhowTmXo/0.jpg"
+              alt="Victoria + Albert QUARRYCAST"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/e_BDhowTmXo?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Oliveri Sink Craftmanship</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/1qqVIBthX_A/0.jpg"
+              alt="Argent Kitchen Tapware"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/1qqVIBthX_A?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Argent Kitchen Tapware</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/Y0LyUlY8v10/0.jpg"
+              alt="Rinnai Storage Water Heater"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/Y0LyUlY8v10?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Rinnai Storage Water Heater</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/cQY_S-TDZ4Q/0.jpg"
+              alt="Brodware inFinium PVD"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/cQY_S-TDZ4Q?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Brodware inFinium PVD</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/eC_ZV-OViqk/0.jpg"
+              alt="Duravit DuraSquare"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/eC_ZV-OViqk?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Duravit DuraSquare</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/RSyeuYKFc4Q/0.jpg"
+              alt="Aquas X-Jet"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/RSyeuYKFc4Q?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Aquas X-Jet</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/BiddC8peUY8/0.jpg"
+              alt="How To Use An InSinkErator"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/BiddC8peUY8?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">How To Use An InSinkErator</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/gDdSEJcvkDE/0.jpg"
+              alt="Kaldewei Baths"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/gDdSEJcvkDE?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Kaldewei Baths</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/IOnRVbPPSVY/0.jpg"
+              alt="Duravit SensoWash"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/IOnRVbPPSVY?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Duravit SensoWash</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/vFXAZAbHbcA/0.jpg"
+              alt="What Is Taqua Tapware"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/vFXAZAbHbcA?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">What Is Taqua Tapware</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/sFfgMokSt8Y/0.jpg"
+              alt="History Behind The TOTO Washlet"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/sFfgMokSt8Y?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">History Behind The TOTO Washlet</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/VSEa0-l1aJ4/0.jpg"
+              alt="TOTO Bidet Suite"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/VSEa0-l1aJ4?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">TOTO Bidet Suite</h3>
+        </div>
+
+        <div class="list">
+          <div class="list-thumbnail">
+            <img
+              src="http://img.youtube.com/vi/egq63K0WdTE/0.jpg"
+              alt="Viega Flush Technology"
+            />
+          </div>
+          <iframe
+            src="https://www.youtube.com/embed/egq63K0WdTE?autoplay=1"
+            class="list-video"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+          <h3 class="list-title">Viega Flush Technology</h3>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
