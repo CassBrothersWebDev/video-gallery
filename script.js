@@ -10,7 +10,6 @@ videoList.forEach((vid) => {
     let src = vid.querySelector(".list-video").src;
     let title = vid.querySelector(".list-title").innerHTML;
     document.querySelector(".main-video").src = src;
-    // document.querySelector(".main-video").play();
     document.querySelector(".main-vid-title").innerHTML = title;
   };
 });
