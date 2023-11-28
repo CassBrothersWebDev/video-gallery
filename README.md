@@ -52,7 +52,6 @@ Title: The video title is displayed within an `h3` element with the list-title c
 src="https://www.youtube.com/embed/7Lrxk2g5TpE?autoplay=1"
 class="list-video"
 frameborder="0"
-autoplay="1"
 allowfullscreen
 ></iframe>
 <h3 class="list-title">Are Velux Skylights Hail Proof?</h3>
