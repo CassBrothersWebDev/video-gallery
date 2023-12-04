@@ -4,8 +4,8 @@
 
 This webpage is designed to showcase a list of product videos provided by suppliers. The main features include a prominent main video display and a list of videos with thumbnails and titles. The JavaScript functionality allows users to click on a video in the list, which updates the main video display with the selected video.
 
-**Important**  
-The code in question is not written inside Shopify Shogun; rather, it has been directly added to the Shopify page using the HTML editor.
+> [!IMPORTANT]
+> The code in question is not written inside Shopify Shogun; rather, it has been directly added to the Shopify page using the HTML editor.
 
 ## HTML Structure
 
