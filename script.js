@@ -7,7 +7,7 @@ videoList.forEach((vid) => {
       remove.classList.remove("active");
     });
     vid.classList.add("active");
-    let src = vid.querySelector(".list-video").src;
+    let src = vid.querySelector(".list-video").src + "?autoplay=1";
     let title = vid.querySelector(".list-title").innerHTML;
     document.querySelector(".main-video").src = src;
     document.querySelector(".main-vid-title").innerHTML = title;
